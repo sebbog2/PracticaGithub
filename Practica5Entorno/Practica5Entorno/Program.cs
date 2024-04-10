@@ -76,9 +76,7 @@ namespace Practica5Entorno
             }
             public bool IsFigure()
             {
-                if (_number == 1 || _number <= 13)
-                    return true;
-                return false;
+                return (_number == 1 || _number <= 14);
             }
         }
     }
