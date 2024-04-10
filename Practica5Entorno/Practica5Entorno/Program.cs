@@ -13,7 +13,7 @@ namespace Practica5Entorno
         }
         public enum ColorType
         {
-            RED,
+            BLUE,
             BLACK
         }
         public enum FigureType
@@ -55,7 +55,7 @@ namespace Practica5Entorno
             public ColorType GetColor()
             {
                 if (GetCardType() == CardType.DIAMANTE || GetCardType() == CardType.CORAZON)
-                    return ColorType.RED;
+                    return ColorType.BLUE;
                 else
                     return ColorType.BLACK;
             }
