@@ -42,7 +42,7 @@ namespace Practica5Entorno
 
             public bool IsValid()
             {
-                return _number > 0 && _number <= 14;
+                return _number > 1 && _number <= 14;
             }
             public int GetNumber()
             {
